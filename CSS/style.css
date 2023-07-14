@@ -1,0 +1,1456 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+#header {
+    width: 100%;
+    height: auto;
+    background-color: #F6F6F6;
+    display: flex;
+    top: 0;
+}
+
+.right {
+    width: 100%;
+    height: auto;
+    margin-left: 5%;
+}
+
+button {
+    border: none;
+    padding-left: 15px;
+    font-size: 15px;
+    background-color: transparent;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    padding-bottom: 15px;
+    position: relative;
+}
+
+.left {
+    width: 50%;
+    height: auto;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 6% 100%);
+    background-color: #F3525A;
+    display: flex;
+}
+
+#btn {
+    width: 220px;
+    height: 30px;
+    margin-left: 35px;
+    position: relative;
+    color: white;
+}
+
+#btn1 {
+    color: white;
+    margin-left: 35px;
+}
+
+#btn::after {
+    content: "";
+    position: absolute;
+    height: 4rem;
+    top: -15px;
+    width: 2px;
+    right: -13px;
+    background-color: white;
+}
+
+/* navbar starts here */
+
+#nav {
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color: white;
+    /* background-color: aquamarine; */
+}
+
+.logo {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 4%;
+    margin-bottom: 10px;
+}
+
+.logo h1 {
+    font-size: 35px;
+    color: #F3525A;
+}
+
+.navbar {
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    margin-left: 12%;
+}
+
+.navbar-link {
+    margin-right: 1%;
+}
+
+.navbar-link li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 25px;
+    margin-left: 20px;
+    float: inline-end;
+}
+
+.toggler span {
+    font-size: 50px;
+    margin-left: -60px;
+    margin-top: 5px;
+    display: none;
+}
+
+/* navbar ends here */
+
+/* section one starts here */
+
+#one {
+    width: 100%;
+    height: auto;
+}
+
+.banner {
+    width: 100%;
+    height: 650px;
+    background: linear-gradient(rgba(160, 160, 160, 0.858), rgba(160, 160, 160, 0.479)), url(../Images/carousel-1.jpg) no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.banner-text {
+    width: 50%;
+    height: auto;
+    align-items: center;
+    position: absolute;
+    margin-top: 13%;
+    margin-left: 22%;
+    color: white;
+}
+
+.banner-text h1 {
+    font-size: 65px;
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+}
+
+.banner-text p {
+    color: brown;
+    font-size: 35px;
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+}
+
+.btn {
+    width: 50%;
+    height: auto;
+    margin-left: 33%;
+    margin-top: 30%;
+    position: absolute;
+}
+
+#get {
+    width: 30%;
+    height: 80px;
+    color: white;
+    background-color: #F3525A;
+    border-radius: 50px 50px 50px 50px;
+    padding-right: 15px;
+    padding-top: 15px;
+}
+
+#get:hover {
+    background-color: #F3525A;
+    color: black;
+}
+
+#contact {
+    width: 30%;
+    height: 80px;
+    color: #F3525A;
+    background-color: white;
+    margin-left: 15px;
+    padding-left: 5px;
+    padding-top: 15px;
+    border-radius: 50px 50px 50px 50px;
+}
+
+#contact:hover {
+    color: black;
+    background-color: white;
+}
+
+/* section one ends here */
+
+/* section two starts here */
+
+#two {
+    width: 100%;
+    height: auto;
+}
+
+.main {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.welcome {
+    width: 50%;
+    height: auto;
+    background-color: #F6F6F6;
+    padding-top: 5%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+}
+
+.welcome h1 {
+    color: black;
+    font-family: 'Londrina Solid', cursive;
+    font-size: 55px;
+}
+
+.welcome span {
+    color: #F3525A;
+}
+
+.welcome h3 {
+    font-size: 25px;
+    font-family: 'Libre Bodoni', serif;
+    color: #F3525A;
+    margin-top: 2%;
+}
+
+.welcome p {
+    width: 95%;
+    color: grey;
+    margin-top: 3%;
+    font-size: 20px;
+    font-family: 'Alegreya', serif;
+    text-align: justify;
+}
+
+.welcome button {
+    width: 20%;
+    height: 50px;
+    border-radius: 50px 50px 50px 50px;
+    margin-top: 25px;
+    padding-top: 15px;
+    padding-left: 5px;
+    background-color: #F3525A;
+    color: white;
+}
+
+.buisness {
+    width: 50%;
+    height: auto;
+    background-color: #F3525A;
+}
+
+.planning {
+    width: 100%;
+    height: auto;
+    background-color: #F3525A;
+    padding-top: 10%;
+    display: flex;
+    padding-left: 5% !important;
+}
+
+.planning span {
+    background-color: white;
+    color: #F3525A;
+    width: 50px;
+    height: 48px;
+    font-size: 40px;
+    border-radius: 50%;
+    padding-top: 3%;
+    margin-left: 5px;
+    text-align: center;
+}
+
+.plan-txt {
+    width: 55%;
+    margin-left: 5%;
+}
+.plan-txt h1
+{
+    font-family: 'Londrina Solid', cursive;
+}
+
+.plan-txt p {
+    margin-top: 2%;
+    font-family: 'Alegreya', serif;
+}
+
+.finance {
+    width: 100%;
+    height: auto;
+    background-color: #F3525A;
+    padding-top: 10%;
+    margin-top: -5%;
+    display: flex;
+    padding-left: 5% !important;
+}
+
+.chart-txt {
+    width: 55%;
+    margin-left: 5%;
+}
+.chart-txt h1
+{
+    font-family: 'Londrina Solid', cursive;
+}
+
+.chart-txt p {
+    margin-top: 2%;
+    font-family: 'Alegreya', serif;
+}
+
+.finance span {
+    background-color: white;
+    color: #F3525A;
+    width: 50px;
+    height: 40px;
+    font-size: 30px;
+    border-radius: 50%;
+    margin-left: 5px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.legal {
+    width: 100%;
+    height: auto;
+    background-color: #F3525A;
+    padding-top: 10%;
+    margin-top: -5%;
+    display: flex;
+    padding-left: 5% !important;
+}
+
+.legal span {
+    background-color: white;
+    color: #F3525A;
+    width: 50px;
+    height: 40px;
+    font-size: 30px;
+    border-radius: 50%;
+    margin-left: 5px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.legal-txt {
+    width: 55%;
+    margin-left: 5%;
+}
+.legal-txt h1
+{
+    font-family: 'Londrina Solid', cursive;
+}
+
+.legal-txt p {
+    margin-top: 2%;
+    font-family: 'Alegreya', serif;
+}
+
+/* section two ends here */
+
+/* section three starts here */
+
+#three {
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+}
+
+.head {
+    width: 100%;
+    height: auto;
+}
+
+.head h1 {
+    text-align: center;
+    font-family: 'Londrina Solid', cursive;
+    font-size: 40px;
+}
+.heading h1
+{
+    font-family: 'Londrina Solid', cursive;
+}
+
+.row {
+    width: 12%;
+    margin-left: 43.8%;
+}
+
+.square {
+    width: 90%;
+    height: auto;
+    display: flex;
+    margin-left: 5%;
+    margin-top: 5%;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+.research {
+    width: 40% !important;
+    height: auto;
+    background-color: #F6F6F6;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.research span {
+    width: 85px;
+    height: 80px;
+    background-color: #F3525A;
+    color: white;
+    border-radius: 50%;
+    padding-top: 10px;
+    text-align: center;
+    margin-left: 40%;
+    font-size: 65px;
+}
+
+.research h1 {
+    font-size: 45px;
+    font-family: 'Londrina Solid', cursive;
+    text-align: center;
+    margin-top: 5%;
+}
+.research p
+{
+    font-family: 'Alegreya', serif;
+}
+
+.paragraph {
+    width: 90%;
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: 20px;
+}
+
+.stretagy {
+    width: 40% !important;
+    height: auto;
+    background-color: #F6F6F6;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.stretagy span {
+    width: 85px;
+    height: 80px;
+    background-color: #F3525A;
+    color: white;
+    border-radius: 50%;
+    padding-top: 15px;
+    padding-left: 5px;
+    text-align: center;
+    margin-left: 40%;
+    font-size: 65px;
+}
+
+.stretagy h1 {
+    font-size: 45px;
+    font-family: 'Londrina Solid', cursive;
+    text-align: center;
+    margin-top: 5%;
+}
+.stretagy p
+{
+    font-family: 'Alegreya', serif;
+}
+
+.paragraph1 {
+    width: 90%;
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: 20px;
+}
+
+.market {
+    width: 40% !important;
+    height: auto;
+    background-color: #F6F6F6;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.market span {
+    width: 85px;
+    height: 75px;
+    background-color: #F3525A;
+    color: white;
+    border-radius: 50%;
+    padding-top: 20px;
+    text-align: center;
+    margin-left: 40%;
+    font-size: 55px;
+}
+
+.market h1 {
+    font-size: 45px;
+    font-family: 'Londrina Solid', cursive;
+    text-align: center;
+    margin-top: 5%;
+}
+.market p
+{
+    font-family: 'Alegreya', serif;
+}
+
+.paragraph2 {
+    width: 90%;
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: 20px;
+}
+
+/* first 3 square css is over here */
+
+/* this css is for the second 3 square */
+.square1 {
+    width: 90%;
+    height: auto;
+    display: flex;
+    margin-left: 5%;
+    margin-top: 3%;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+.analysis {
+    width: 40% !important;
+    height: auto;
+    background-color: #F6F6F6;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.analysis span {
+    width: 85px;
+    height: 75px;
+    background-color: #F3525A;
+    color: white;
+    border-radius: 50%;
+    padding-top: 15px;
+    text-align: center;
+    margin-left: 40%;
+    font-size: 55px;
+}
+
+.analysis h1 {
+    font-size: 45px;
+    font-family: 'Londrina Solid', cursive;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.para {
+    width: 90%;
+    text-align: center;
+    font-family: 'Alegreya', serif;
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: 20px;
+}
+
+.advisory {
+    width: 40% !important;
+    height: auto;
+    background-color: #F6F6F6;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.advisory span {
+    width: 85px;
+    height: 80px;
+    background-color: #F3525A;
+    color: white;
+    border-radius: 50%;
+    padding-top: 10px;
+    padding-left: 5px;
+    text-align: center;
+    margin-left: 40%;
+    font-size: 65px;
+}
+
+.advisory h1 {
+    font-size: 45px;
+    font-family: 'Londrina Solid', cursive;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.para1 {
+    width: 90%;
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: 20px;
+    font-family: 'Alegreya', serif;
+}
+
+.tax {
+    width: 40% !important;
+    height: auto;
+    background-color: #F6F6F6;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.tax span {
+    width: 85px;
+    height: 80px;
+    background-color: #F3525A;
+    color: white;
+    border-radius: 50%;
+    padding-top: 10px;
+    text-align: center;
+    margin-left: 40%;
+    font-size: 65px;
+}
+
+.tax h1 {
+    font-size: 45px;
+    font-family: 'Londrina Solid', cursive;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.para2 {
+    width: 90%;
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: 20px;
+    font-family: 'Alegreya', serif;
+}
+
+/* section three ends here */
+
+/* section four starts here */
+
+#four {
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+}
+
+.heading h1 {
+    font-size: 55px;
+    text-align: center;
+}
+
+hr {
+    width: 20%;
+    margin-left: 40%;
+}
+
+.parent {
+    width: 90%;
+    height: auto;
+    margin-top: 5%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-evenly !important;
+}
+
+.best {
+    width: 50%;
+    height: auto;
+}
+
+.first {
+    width: 100%;
+    height: auto;
+}
+
+.first span {
+    width: 45px;
+    height: 40px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-radius: 50%;
+    font-size: 30px;
+    background-color: #F3525A;
+    color: white;
+}
+
+.first h1 {
+    font-size: 35px;
+    font-family: 'Londrina Solid', cursive;
+    margin-top: 2%;
+}
+
+.industry-para {
+    font-size: 18px;
+    margin-top: 2%;
+    font-family: 'Alegreya', serif;
+}
+
+.second {
+    width: 100%;
+    height: auto;
+}
+
+.second span {
+    width: 40px;
+    height: 40px;
+    margin-top: 10%;
+    padding-left: 15px;
+    padding-top: 3%;
+    padding-bottom: 1%;
+    border-radius: 50%;
+    font-size: 30px;
+    background-color: #F3525A;
+    color: white;
+}
+
+.second h1 {
+    font-size: 35px;
+    font-family: 'Londrina Solid', cursive;
+    margin-top: 2%;
+}
+
+.success-para {
+    font-size: 18px;
+    margin-top: 2%;
+    font-family: 'Alegreya', serif;
+}
+
+.third {
+    width: 100%;
+    height: auto;
+}
+
+.third span {
+    width: 40px;
+    height: 35px;
+    margin-top: 10%;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-radius: 50%;
+    font-size: 30px;
+    background-color: #F3525A;
+    color: white;
+}
+
+.third h1 {
+    font-size: 35px;
+    font-family: 'Londrina Solid', cursive;
+    margin-top: 2%;
+}
+
+.award-para {
+    font-size: 18px;
+    margin-top: 2%;
+    font-family: 'Alegreya', serif;
+}
+
+.center {
+    width: 50% !important;
+    align-items: center;
+    padding-bottom: 2%;
+    margin-left: 5%;
+    background-color: #F3525A;
+}
+
+.picture img {
+    width: 100%;
+}
+
+.para-text {
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+    padding-top: 5%;
+    color: white;
+    font-family: 'Alegreya', serif;
+}
+
+#learn {
+    width: 50%;
+    height: 50px;
+    margin-top: 8%;
+    padding-left: 1%;
+    padding-top: 4%;
+    border-radius: 50px 50px 50px 50px;
+    background-color: white;
+}
+
+.client {
+    width: 50%;
+    height: auto;
+    margin-left: 5%;
+}
+
+.happy {
+    width: 100%;
+    height: auto;
+}
+
+.happy span {
+    width: 45px;
+    height: 40px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-radius: 50%;
+    font-size: 35px;
+    background-color: #F3525A;
+    color: white;
+}
+
+.happy h1 {
+    font-size: 35px;
+    font-family: 'Londrina Solid', cursive;
+    margin-top: 2%;
+}
+
+.happy-para {
+    font-size: 18px;
+    margin-top: 2%;
+    font-family: 'Alegreya', serif;
+}
+
+.professional {
+    width: 100%;
+    height: auto;
+}
+
+.professional span {
+    width: 40px;
+    height: 40px;
+    margin-top: 10%;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-radius: 50%;
+    font-size: 35px;
+    background-color: #F3525A;
+    color: white;
+}
+
+.professional h1 {
+    font-size: 35px;
+    font-family: 'Londrina Solid', cursive;
+    margin-top: 2%;
+}
+
+.profession {
+    font-size: 18px;
+    margin-top: 2%;
+    font-family: 'Alegreya', serif;
+}
+
+.customer {
+    width: 100%;
+    height: auto;
+}
+
+.customer span {
+    width: 45px;
+    height: 40px;
+    margin-top: 10%;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-radius: 50%;
+    font-size: 35px;
+    background-color: #F3525A;
+    color: white;
+}
+
+.customer h1 {
+    font-size: 35px;
+    font-family: 'Londrina Solid', cursive;
+    margin-top: 2%;
+}
+
+.customer-para {
+    font-size: 18px;
+    margin-top: 2%;
+    font-family: 'Alegreya', serif;
+}
+
+/* section four ends here */
+
+/* section five starts here */
+
+#five {
+    width: 100%;
+    height: auto;
+    background-color: #F6F6F6;
+    margin-top: 5%;
+}
+
+.free-quote {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.quote-text {
+    width: 100%;
+    height: auto;
+    margin-top: 2.5%;
+}
+
+.request {
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.request h1 {
+    font-size: 45px;
+    font-family: 'Londrina Solid', cursive;
+}
+
+.request p {
+    font-size: 20px;
+    margin-top: 5%;
+    font-family: 'Alegreya', serif;
+}
+
+.quote-info {
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.fname {
+    width: 45%;
+    height: 50px;
+}
+
+.mail {
+    width: 45%;
+    height: 50px;
+    margin-left: 3%;
+}
+
+.category {
+    width: 45%;
+    height: 50px;
+    margin-top: 2%;
+}
+
+#send {
+    width: 45.3%;
+    height: 55px;
+    background-color: #F3525A;
+    color: white;
+    margin-left: 3%;
+    padding-top: 15px;
+    border-radius: 5px;
+}
+
+#send:hover {
+    color: black;
+}
+
+.visual {
+    width: 100%;
+    height: 500px;
+}
+
+.visual img {
+    width: 100%;
+    height: 100%;
+}
+
+/* section five ends here */
+
+/* section six starts here */
+
+#six {
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+}
+
+.team {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.team h1 {
+    font-size: 45px;
+    font-family: 'Londrina Solid', cursive;
+}
+
+.team hr {
+    width: 15%;
+    margin-left: 42.5%;
+    margin-top: 5px;
+    color: #F3525A;
+}
+
+.members {
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+    background-color: #F6F6F6;
+}
+
+.team-member {
+    width: 90% !important;
+    height: auto;
+    display: flex;
+    justify-content: center !important;
+    gap: 45px;
+    margin-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.member1 {
+    width: 90%;
+    height: auto;
+}
+
+.member1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.member2 {
+    width: 90%;
+    height: auto;
+}
+
+.member2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.member3 {
+    width: 90%;
+    height: auto;
+}
+
+.member3 img {
+    width: 100%;
+    height: 100%;
+}
+
+/* section six ends here */
+
+/* section seven starts here */
+
+#seven {
+    width: 100%;
+    height: auto;
+    background-color: #F6F6F6;
+    margin-top: 2%;
+}
+
+.master {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.client-img {
+    width: 90%;
+    height: 600px;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.client-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.review {
+    width: 80%;
+    height: auto;
+    margin-top: 5%;
+}
+
+.review h1 {
+    margin-left: 5%;
+    font-family: 'Londrina Solid', cursive;
+    font-size: 55px;
+}
+
+.client-text {
+    width: 80%;
+    height: auto;
+    text-align: justify;
+    font-size: 25px;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+.client-text p
+{
+    font-family: 'Alegreya', serif;
+}
+
+.client-text span {
+    color: #F3525A;
+    font-size: 30px;
+}
+
+.client-name {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-left: 5%;
+}
+
+.pic {
+    width: 20%;
+    height: auto;
+    margin-top: 5%;
+}
+
+.pic img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.occupation {
+    width: 50%;
+    height: auto;
+    margin-top: 11%;
+    margin-left: 5%;
+}
+
+.arrow {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-left: 6%;
+    margin-top: 5%;
+}
+
+.arrow-left {
+    width: 5%;
+    height: auto;
+}
+
+.arrow-left span {
+    width: 45px;
+    height: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 50%;
+    background-color: #F3525A;
+    font-size: 35px;
+}
+
+.arrow-right {
+    width: 10%;
+    height: auto;
+    margin-left: 5%;
+}
+
+.arrow-right span {
+    width: 40px;
+    height: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    border-radius: 50%;
+    background-color: #F3525A;
+    font-size: 35px;
+}
+
+.fa-arrow-left:hover,
+.fa-arrow-right:hover {
+    background-color: white;
+    color: #F3525A;
+}
+
+/* section seven ends here */
+
+/* section eight start here */
+
+#eight {
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+}
+
+.latest {
+    width: 100%;
+    height: auto;
+}
+
+.latest h1 {
+    text-align: center;
+    font-family: 'Londrina Solid', cursive;
+    font-size: 55px;
+}
+
+.latest hr {
+    width: 15%;
+    margin-left: 42%;
+    margin-top: 1%;
+}
+
+.post {
+    width: 90%;
+    height: auto;
+    margin-top: 5%;
+    margin-left: 5%;
+    display: flex;
+    gap: 55px;
+}
+.post p
+{
+    font-family: 'Alegreya', serif;
+}
+
+.post-one {
+    width: 80% !important;
+}
+
+.post-two {
+    width: 80%;
+}
+
+.post-three {
+    width: 80%;
+}
+
+.post-image {
+    width: 100%;
+    height: 250px;
+}
+
+.post-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.post-text {
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color: #F6F6F6;
+}
+
+.month {
+    width: 20%;
+    background-color: #F3525A;
+    text-align: center;
+}
+
+.month p {
+    margin-top: 5%;
+    font-size: 25px;
+}
+
+.admin {
+    width: 90%;
+    height: auto;
+    margin-left: 2%;
+    padding-bottom: 2%;
+    font-size: 20px;
+    margin-top: 3%;
+}
+
+.admin span {
+    color: gray;
+    font-size: 25px;
+    margin-left: 2%;
+}
+
+.admin p {
+    width: 90%;
+    font-size: 22px;
+    margin-top: 2%;
+    margin-left: 2%;
+    text-align: justify;
+}
+
+/* section eight ends here */
+
+/* section nine starts here */
+
+#nine {
+    width: 100%;
+    height: auto;
+    background-color: #F3525A;
+    margin-top: 5%;
+    padding-bottom: 2%;
+}
+
+.update {
+    width: 100%;
+    height: auto;
+    padding-bottom: 2%;
+}
+
+.update h1 {
+    font-size: 55px;
+    font-family: 'Londrina Solid', cursive;
+    text-align: center;
+    padding-top: 3% !important;
+}
+
+.sign {
+    width: 50%;
+    height: auto;
+    margin-left: 30%;
+}
+
+.sign input {
+    width: 70%;
+    height: 50px;
+}
+
+.sign button {
+    width: 100px;
+    height: 53px;
+    background-color: #152440;
+    margin-left: -5px;
+    padding-left: 0px;
+    padding-top: 13px;
+    color: white;
+    border-radius: 0px 5px 5px 0px;
+}
+
+/* section nine ends here */
+
+/* footer starts here */
+
+footer {
+    background-color: #152440;
+    color: white;
+    padding-bottom: 2%;
+}
+
+.footer-info {
+    height: auto;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around !important;
+    border-bottom: 1px solid #dee2e6 !important;
+}
+
+.quick {
+    width: 20%;
+    height: auto;
+    margin-left: 5%;
+}
+.quick h1
+{
+    font-family: 'Londrina Solid', cursive;
+}
+
+.quick-link li {
+    font-size: 20px;
+    list-style-type: none;
+    line-height: 1.5;
+    margin-top: 2%;
+    font-family: 'Teko', sans-serif;
+}
+
+.popular {
+    width: 20%;
+    height: auto;
+}
+.popular h1
+{
+    font-family: 'Londrina Solid', cursive;
+}
+
+.popular-link li {
+    font-size: 20px;
+    list-style-type: none;
+    line-height: 1.5;
+    margin-top: 2%;
+    font-family: 'Teko', sans-serif;
+}
+
+.touch {
+    width: 20%;
+    height: auto;
+}
+.touch h1
+{
+    font-family: 'Londrina Solid', cursive;
+}
+
+.touch p {
+    font-size: 22px;
+    line-height: 2;
+    font-family: 'Courgette', cursive;
+}
+
+.touch p span {
+    margin-right: 10px;
+}
+
+.follow {
+    width: 20%;
+    height: auto;
+}
+.follow h1
+{
+    font-family: 'Londrina Solid', cursive;
+}
+
+.follow span {
+    background-color: transparent;
+    width: 40px;
+    height: 50px;
+    font-size: 35px;
+    border-radius: 50%;
+}
+
+.fa-twitter,
+.fa-linkedin-in,
+.fa-instagram {
+    padding-top: 10px;
+    padding-right: 25px;
+}
+
+.fa-facebook-f {
+    width: 40px;
+    padding-top: 10px;
+    padding-right: 20px !important;
+}
+
+.copyright {
+    width: 100%;
+    text-align: center;
+    margin-top: 2%;
+}
+
+/* footer ends here */
